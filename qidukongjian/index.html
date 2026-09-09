@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>七度空间-女性护理用品官方品牌站与产品指南</title>
+    <meta name="description" content="七度空间是专注于女性日常护理与经期用品的知名品牌，提供卫生巾、护垫、安睡裤等产品信息，包含选购指南、使用建议与常见问题解答。">
+    <meta name="keywords" content="七度空间,七度空间卫生巾,七度空间护垫,七度空间安睡裤,女性护理,经期用品,卫生巾选购">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+            background-color: #faf6f8;
+            color: #3a2e33;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        /* Header */
+        .site-header {
+            background: linear-gradient(135deg, #f8d4df 0%, #fce8ee 100%);
+            padding: 16px 0;
+            border-bottom: 2px solid #f2b8c7;
+        }
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .logo-icon {
+            background: #d94f6f;
+            color: #fff;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 700;
+            box-shadow: 0 4px 12px rgba(217, 79, 111, 0.25);
+        }
+        .logo-text h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #a12e4a;
+            letter-spacing: 1px;
+        }
+        .logo-text p {
+            font-size: 0.85rem;
+            color: #8a4a5a;
+            letter-spacing: 2px;
+        }
+        .header-contact {
+            font-size: 0.9rem;
+            color: #7a3a4a;
+            background: rgba(255,255,255,0.5);
+            padding: 8px 16px;
+            border-radius: 30px;
+        }
+        /* Nav */
+        .main-nav {
+            background: #ffffff;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid #f0e0e5;
+        }
+        .nav-list {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 6px 0;
+        }
+        .nav-list li a {
+            display: block;
+            padding: 12px 24px;
+            text-decoration: none;
+            color: #5a3a42;
+            font-weight: 500;
+            font-size: 1rem;
+            transition: color 0.2s;
+            border-bottom: 3px solid transparent;
+        }
+        .nav-list li a:hover,
+        .nav-list li a.active {
+            color: #d94f6f;
+            border-bottom-color: #d94f6f;
+        }
+        /* Hero */
+        .hero {
+            background: linear-gradient(120deg, #fdeaf0 0%, #fbdae5 50%, #f8ccd9 100%);
+            padding: 60px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::after {
+            content: "❀";
+            font-size: 180px;
+            color: rgba(255,255,255,0.3);
+            position: absolute;
+            right: -20px;
+            bottom: -40px;
+            transform: rotate(15deg);
+        }
+        .hero::before {
+            content: "❀";
+            font-size: 120px;
+            color: rgba(255,255,255,0.3);
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            transform: rotate(-15deg);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .hero h2 {
+            font-size: 2.6rem;
+            color: #a12e4a;
+            margin-bottom: 16px;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #6e3a4a;
+            margin-bottom: 24px;
+        }
+        .hero-btn {
+            display: inline-block;
+            background: #d94f6f;
+            color: #fff;
+            padding: 14px 40px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            box-shadow: 0 8px 20px rgba(217, 79, 111, 0.3);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .hero-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 24px rgba(217, 79, 111, 0.35);
+        }
+        /* Section styles */
+        .section {
+            padding: 60px 0;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            color: #a12e4a;
+            margin-bottom: 12px;
+            font-weight: 700;
+            position: relative;
+        }
+        .section-sub {
+            text-align: center;
+            color: #8a5a64;
+            margin-bottom: 40px;
+            font-size: 1rem;
+        }
+        /* Category cards */
+        .cat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 24px;
+            margin-top: 20px;
+        }
+        .cat-card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 28px 20px;
+            text-align: center;
+            box-shadow: 0 6px 16px rgba(0,0,0,0.04);
+            transition: transform 0.2s;
+            border-top: 4px solid #f2a0b8;
+        }
+        .cat-card:hover {
+            transform: translateY(-4px);
+        }
+        .cat-icon {
+            font-size: 3rem;
+            margin-bottom: 12px;
+            display: block;
+        }
+        .cat-card h3 {
+            font-size: 1.3rem;
+            color: #5a2a38;
+            margin-bottom: 10px;
+        }
+        .cat-card p {
+            font-size: 0.9rem;
+            color: #7a5a62;
+        }
+        /* Product / feature grid */
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 30px;
+        }
+        .feature-item {
+            background: #fff;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+        .feature-item:hover {
+            transform: translateY(-4px);
+        }
+        .feature-img {
+            background: linear-gradient(145deg, #fce4eb, #f8d0dc);
+            height: 160px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            color: #d94f6f;
+        }
+        .feature-info {
+            padding: 20px;
+        }
+        .feature-info h3 {
+            font-size: 1.2rem;
+            color: #4a2a34;
+            margin-bottom: 8px;
+        }
+        .feature-info p {
+            font-size: 0.9rem;
+            color: #6e4a56;
+            margin-bottom: 12px;
+        }
+        .feature-tag {
+            display: inline-block;
+            background: #fce4eb;
+            color: #c04060;
+            border-radius: 20px;
+            padding: 4px 12px;
+            font-size: 0.8rem;
+        }
+        /* Guide / Steps */
+        .guide-box {
+            background: #fff;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .guide-box ol {
+            padding-left: 20px;
+        }
+        .guide-box li {
+            margin-bottom: 14px;
+            color: #5a3a42;
+        }
+        .guide-box strong {
+            color: #a12e4a;
+        }
+        /* Safety section */
+        .safety-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 24px;
+            margin-top: 20px;
+        }
+        .safety-card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 24px;
+            border-left: 5px solid #d94f6f;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+        }
+        .safety-card h3 {
+            font-size: 1.1rem;
+            color: #4a2a34;
+            margin-bottom: 8px;
+        }
+        .safety-card p {
+            font-size: 0.9rem;
+            color: #6e4a56;
+        }
+        /* FAQ */
+        .faq-list {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .faq-item {
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-bottom: 16px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.03);
+        }
+        .faq-item h3 {
+            font-size: 1.05rem;
+            color: #a12e4a;
+            margin-bottom: 6px;
+        }
+        .faq-item p {
+            font-size: 0.95rem;
+            color: #5a3a42;
+        }
+        /* CTA */
+        .cta-banner {
+            background: linear-gradient(120deg, #f8d4df, #f2b8c7);
+            border-radius: 20px;
+            padding: 40px 30px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta-banner h3 {
+            font-size: 1.8rem;
+            color: #7a2a40;
+            margin-bottom: 12px;
+        }
+        .cta-banner p {
+            font-size: 1.1rem;
+            color: #6e3a4a;
+            margin-bottom: 20px;
+        }
+        .btn-secondary {
+            display: inline-block;
+            background: #fff;
+            color: #d94f6f;
+            padding: 12px 32px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            transition: background 0.2s;
+        }
+        .btn-secondary:hover {
+            background: #fdf0f4;
+        }
+        /* Footer */
+        .site-footer {
+            background: #3a2028;
+            color: #e8c0cc;
+            padding: 40px 0 20px;
+            margin-top: 40px;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        .footer-col h4 {
+            font-size: 1.1rem;
+            color: #fff;
+            margin-bottom: 16px;
+        }
+        .footer-col ul {
+            list-style: none;
+        }
+        .footer-col ul li {
+            margin-bottom: 8px;
+        }
+        .footer-col ul li a {
+            color: #d8a0b0;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .footer-col ul li a:hover {
+            color: #fff;
+        }
+        .footer-bottom {
+            border-top: 1px solid #5a3a44;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #b08898;
+        }
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-inner {
+                flex-direction: column;
+                gap: 12px;
+                text-align: center;
+            }
+            .hero h2 {
+                font-size: 1.8rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            .nav-list li a {
+                padding: 10px 14px;
+                font-size: 0.9rem;
+            }
+            .section {
+                padding: 40px 0;
+            }
+            .section-title {
+                font-size: 1.6rem;
+            }
+            .cat-grid {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 16px;
+            }
+            .guide-box {
+                padding: 20px;
+            }
+        }
+    </style>
+    <script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo-area">
+                <div class="logo-icon">七</div>
+                <div class="logo-text">
+                    <h1>七度空间</h1>
+                    <p>轻柔呵护 · 自在每一天</p>
+                </div>
+            </div>
+            <div class="header-contact">
+                <span>客服热线 400-800-1234</span>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="#" class="active">首页</a></li>
+                <li><a href="#products">产品系列</a></li>
+                <li><a href="#guide">选购指南</a></li>
+                <li><a href="#safety">安全品质</a></li>
+                <li><a href="#faq">常见问题</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>七度空间 · 温柔守护你的每一天</h2>
+                <p>专注女性经期护理与日常健康，以舒适材质与贴心设计，陪伴每一个重要时刻。</p>
+                <a href="#products" class="hero-btn">了解产品系列</a>
+            </div>
+        </section>
+
+        <!-- 品牌简介 -->
+        <section class="section" id="about">
+            <div class="container">
+                <h2 class="section-title">关于七度空间</h2>
+                <p class="section-sub">懂你的需要，更懂你的感受</p>
+                <div style="max-width: 850px; margin: 0 auto; text-align: center; font-size: 1.05rem; color: #5a3a42;">
+                    <p>七度空间是一个专注于女性个人护理领域的品牌，产品涵盖日常卫生巾、超薄护垫、安心安睡裤等多个品类。品牌以“舒适、安全、贴心”为核心理念，在材质选择、吸收技术和透气设计上不断优化，力求为不同年龄段的女性提供可靠、舒适的经期护理解决方案。无论是日常通勤、运动休闲还是夜间安睡，七度空间都希望通过细致入微的产品设计，让每一位使用者感受到轻松与自在。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 产品分类 -->
+        <section class="section" id="products" style="background: #fdf4f7;">
+            <div class="container">
+                <h2 class="section-title">产品系列</h2>
+                <p class="section-sub">针对不同场景与需求，提供多样选择</p>
+                <div class="cat-grid">
+                    <div class="cat-card">
+                        <span class="cat-icon">🌸</span>
+                        <h3>日用卫生巾</h3>
+                        <p>240mm-280mm 多种长度，轻薄透气，适合日间活动与通勤使用。</p>
+                    </div>
+                    <div class="cat-card">
+                        <span class="cat-icon">🌙</span>
+                        <h3>夜用安心系列</h3>
+                        <p>加长加宽设计，配合高吸收芯体，带来整夜安心睡眠。</p>
+                    </div>
+                    <div class="cat-card">
+                        <span class="cat-icon">💧</span>
+                        <h3>超薄护垫</h3>
+                        <p>小巧便携，适合日常分泌物护理或经期前后使用，清爽无感。</p>
+                    </div>
+                    <div class="cat-card">
+                        <span class="cat-icon">🛏️</span>
+                        <h3>安睡裤</h3>
+                        <p>360° 立体防漏，弹力腰围舒适不紧绷，夜用或量大时更安心。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 热门推荐 / 产品特点 -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">口碑之选</h2>
+                <p class="section-sub">用户关注的品质细节，我们都认真对待</p>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <div class="feature-img">☁️</div>
+                        <div class="feature-info">
+                            <h3>极柔亲肤表层</h3>
+                            <p>采用细腻棉柔材质，减少摩擦感，触感柔软舒适。</p>
+                            <span class="feature-tag">热门</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-img">🌀</div>
+                        <div class="feature-info">
+                            <h3>快速吸收导流</h3>
+                            <p>导流槽设计帮助快速分散液体，保持表面干爽。</p>
+                            <span class="feature-tag">推荐</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-img">🌿</div>
+                        <div class="feature-info">
+                            <h3>透气底膜</h3>
+                            <p>底膜微孔透气，帮助减少闷热感，自在呼吸。</p>
+                            <span class="feature-tag">舒适</span>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-img">🛡️</div>
+                        <div class="feature-info">
+                            <h3>防漏护围</h3>
+                            <p>立体护围设计，有效防止侧漏，活动更从容。</p>
+                            <span class="feature-tag">安心</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 选购指南 -->
+        <section class="section" id="guide" style="background: #fdf4f7;">
+            <div class="container">
+                <h2 class="section-title">选购指南</h2>
+                <p class="section-sub">如何找到适合自己的护理产品？</p>
+                <div class="guide-box">
+                    <ol>
+                        <li><strong>根据流量选择：</strong> 量少时可选择 240mm 左右的日用型或护垫；量多时建议使用 280mm 以上或安睡裤产品。</li>
+                        <li><strong>根据使用场景：</strong> 白天通勤或办公，可以选择轻薄型产品，方便活动；夜间睡眠建议使用加长夜用型或安睡裤，减少侧漏顾虑。</li>
+                        <li><strong>关注材质与肤质：</strong> 敏感肌肤可优先选择棉柔表层、无香型产品，降低刺激风险。</li>
+                        <li><strong>更换频率提醒：</strong> 无论流量多少，建议每 2-3 小时更换一次，保持卫生与舒适。</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <!-- 安全与品质 -->
+        <section class="section" id="safety">
+            <div class="container">
+                <h2 class="section-title">安全与品质承诺</h2>
+                <p class="section-sub">用心把控每一个细节</p>
+                <div class="safety-grid">
+                    <div class="safety-card">
+                        <h3>原材料把关</h3>
+                        <p>对原材料进行严格筛选与检测，确保产品接触皮肤的部分安全卫生。</p>
+                    </div>
+                    <div class="safety-card">
+                        <h3>生产环境</h3>
+                        <p>生产流程遵循严格的卫生标准，注重产品包装的密封性与完整性。</p>
+                    </div>
+                    <div class="safety-card">
+                        <h3>质量检测</h3>
+                        <p>产品在出厂前经过多项质量检验，关注吸收性能、微生物指标等。</p>
+                    </div>
+                    <div class="safety-card">
+                        <h3>舒适体验</h3>
+                        <p>从材质到结构设计，反复调整细节，以提升实际使用中的舒适感受。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 使用小贴士 -->
+        <section class="section">
+            <div class="container">
+                <div class="cta-banner">
+                    <h3>日常护理小贴士</h3>
+                    <p>经期注意保暖与休息，保持心情愉快。选择合适的产品并及时更换，是呵护自己的第一步。</p>
+                    <a href="#faq" class="btn-secondary">查看常见问题</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="section" id="faq" style="background: #fdf4f7;">
+            <div class="container">
+                <h2 class="section-title">常见问题</h2>
+                <p class="section-sub">解答你可能关心的疑问</p>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <h3>卫生巾需要多久更换一次？</h3>
+                        <p>一般建议每 2-3 小时更换一次，即使流量不多也应及时更换，以减少细菌滋生风险。</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>敏感肌肤如何选择产品？</h3>
+                        <p>可选择棉柔表层、无香精添加的款式，先尝试小包装，观察肌肤反应。</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>安睡裤和夜用卫生巾有什么区别？</h3>
+                        <p>安睡裤像内裤一样穿着，具有立体防漏设计，适合夜间量多或需要更大防护的情况；夜用卫生巾则通过加长加宽实现防护。</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>护垫可以每天使用吗？</h3>
+                        <p>日常分泌物较多时可以使用，但建议选择透气性好的产品，并注意及时更换，避免长期闷热。</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>七度空间是否有不同长度可选？</h3>
+                        <p>是的，日用、夜用及加长款提供多种长度，可以根据个人流量和习惯进行选择。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系/信息 -->
+        <section class="section" id="contact">
+            <div class="container" style="text-align: center; max-width: 700px;">
+                <h2 class="section-title">联系我们</h2>
+                <p style="color: #5a3a42; margin-bottom: 20px;">如有产品咨询或建议，欢迎通过以下方式与我们取得联系。</p>
+                <p style="font-size: 1.1rem; margin-bottom: 8px;">📞 客服热线：400-800-1234</p>
+                <p style="font-size: 1.1rem; margin-bottom: 8px;">📧 服务邮箱：service@qidukongjian.example</p>
+                <p style="font-size: 1.1rem;">🕐 服务时间：周一至周日 9:00-21:00</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>产品中心</h4>
+                    <ul>
+                        <li><a href="#">日用系列</a></li>
+                        <li><a href="#">夜用系列</a></li>
+                        <li><a href="#">护垫系列</a></li>
+                        <li><a href="#">安睡裤系列</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>了解我们</h4>
+                    <ul>
+                        <li><a href="#">品牌故事</a></li>
+                        <li><a href="#">品质保障</a></li>
+                        <li><a href="#">社会责任</a></li>
+                        <li><a href="#">新闻动态</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>帮助中心</h4>
+                    <ul>
+                        <li><a href="#">选购指南</a></li>
+                        <li><a href="#">使用建议</a></li>
+                        <li><a href="#">常见问题</a></li>
+                        <li><a href="#">联系客服</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>关注我们</h4>
+                    <ul>
+                        <li><a href="#">官方微博</a></li>
+                        <li><a href="#">微信公众号</a></li>
+                        <li><a href="#">小红书</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 七度空间品牌官方网站 版权所有 | 本站内容仅供信息参考，不构成医疗建议。</p>
+                <p style="margin-top: 6px;">❤ 用心呵护每一位女性</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
