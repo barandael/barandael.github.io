@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>花都旅游-广州花都区景点攻略与深度游玩指南</title>
+    <meta name="description" content="花都旅游网提供广州花都区最全面的旅游攻略，涵盖融创文旅城、圆玄道观、芙蓉嶂、塱头古村等热门景点，包含路线规划、美食推荐、住宿指南和实用贴士，助您轻松玩转花都。">
+    <meta name="keywords" content="花都旅游,广州花都景点,花都攻略,花都融创,花都自驾游,花都美食,花都住宿,花都一日游">
+    <link rel="stylesheet" href="data:text/css;base64,Lm5vLWNzcy1wbGFjZWhvbGRlcnt9">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif; background-color: #f7f9f9; color: #2d3a3a; line-height: 1.6; }
+        a { text-decoration: none; color: inherit; }
+        ul { list-style: none; }
+        .container { max-width: 1280px; margin: 0 auto; padding: 0 20px; }
+
+        /* Header & Navigation */
+        .site-header { background: linear-gradient(135deg, #0f4c5c 0%, #1a6b7a 100%); color: #fff; padding: 0 0 1px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+        .header-top { display: flex; justify-content: space-between; align-items: center; padding: 16px 0; flex-wrap: wrap; }
+        .logo-area { display: flex; align-items: center; gap: 12px; }
+        .logo-icon { background: #f4a261; width: 42px; height: 42px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; }
+        .logo-text h1 { font-size: 1.8rem; font-weight: 700; letter-spacing: 1px; }
+        .logo-text p { font-size: 0.85rem; opacity: 0.85; letter-spacing: 1px; }
+        .header-contact { font-size: 0.9rem; background: rgba(255,255,255,0.15); padding: 8px 18px; border-radius: 30px; }
+        .main-nav { background: rgba(0,0,0,0.12); backdrop-filter: blur(4px); }
+        .main-nav ul { display: flex; flex-wrap: wrap; }
+        .main-nav li a { display: block; padding: 14px 22px; font-size: 1rem; font-weight: 500; transition: background 0.2s; border-bottom: 3px solid transparent; }
+        .main-nav li a:hover, .main-nav li.active a { background: rgba(255,255,255,0.1); border-bottom-color: #f4a261; }
+
+        /* Hero Section */
+        .hero { background: linear-gradient(107deg, #1a6b7a 0%, #2a9d8f 55%, #e9c46a 130%); color: #fff; padding: 56px 0 64px; }
+        .hero-content { display: flex; align-items: center; gap: 40px; flex-wrap: wrap; }
+        .hero-text { flex: 1 1 400px; }
+        .hero-text .tagline { display: inline-block; background: #f4a261; padding: 6px 16px; border-radius: 30px; font-size: 0.9rem; font-weight: 600; margin-bottom: 18px; }
+        .hero-text h2 { font-size: 2.6rem; line-height: 1.3; margin-bottom: 16px; font-weight: 800; }
+        .hero-text p { font-size: 1.1rem; opacity: 0.95; max-width: 600px; }
+        .hero-stats { display: flex; gap: 30px; margin-top: 28px; flex-wrap: wrap; }
+        .stat-item { background: rgba(255,255,255,0.15); padding: 12px 22px; border-radius: 12px; text-align: center; }
+        .stat-item strong { font-size: 1.8rem; display: block; }
+        .hero-feature { flex: 1 1 300px; background: rgba(255,255,255,0.2); border-radius: 20px; padding: 30px 26px; backdrop-filter: blur(6px); border: 1px solid rgba(255,255,255,0.3); }
+        .hero-feature h3 { font-size: 1.4rem; margin-bottom: 16px; border-left: 5px solid #f4a261; padding-left: 14px; }
+        .hero-feature ul li { padding: 8px 0; border-bottom: 1px dashed rgba(255,255,255,0.3); display: flex; align-items: center; gap: 8px; }
+        .hero-feature ul li::before { content: "▹"; color: #f4a261; font-weight: bold; }
+
+        /* Quick Guide */
+        .quick-guide { background: #fff; padding: 24px 0; border-bottom: 1px solid #e6ecec; }
+        .guide-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; }
+        .guide-card { background: #f0f7f7; border-radius: 12px; padding: 16px 18px; display: flex; align-items: center; gap: 12px; transition: all 0.2s; }
+        .guide-card:hover { background: #e0f0ef; transform: translateY(-3px); }
+        .guide-icon { font-size: 2rem; }
+        .guide-info strong { display: block; font-size: 1rem; }
+        .guide-info span { font-size: 0.85rem; color: #5a6b6b; }
+
+        /* Section Styling */
+        .section { padding: 50px 0; }
+        .section-title { text-align: center; margin-bottom: 40px; }
+        .section-title h2 { font-size: 2rem; color: #0f4c5c; margin-bottom: 8px; }
+        .section-title p { color: #5f7373; font-size: 1rem; }
+        .section-title h2 span { color: #e76f51; }
+
+        /* Attractions Grid */
+        .attractions-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; }
+        .attraction-card { background: #fff; border-radius: 16px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.06); transition: all 0.25s; }
+        .attraction-card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
+        .card-img { height: 180px; background: linear-gradient(145deg, #2a9d8f, #264653); display: flex; align-items: center; justify-content: center; font-size: 3.5rem; }
+        .card-img.tone1 { background: linear-gradient(145deg, #48b8a8, #2c7a6f); }
+        .card-img.tone2 { background: linear-gradient(145deg, #f4a261, #e76f51); }
+        .card-img.tone3 { background: linear-gradient(145deg, #7a9e9e, #4a6b6b); }
+        .card-img.tone4 { background: linear-gradient(145deg, #a8c99b, #6f9c7a); }
+        .card-img.tone5 { background: linear-gradient(145deg, #d4a373, #b07d4b); }
+        .card-body { padding: 20px; }
+        .card-body h3 { font-size: 1.25rem; margin-bottom: 6px; color: #1f3a3a; }
+        .card-tag { display: inline-block; background: #eef4f4; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; color: #3d5a5a; margin-bottom: 8px; }
+        .card-body p { font-size: 0.9rem; color: #4f6262; margin-bottom: 12px; }
+        .card-link { color: #e76f51; font-weight: 600; font-size: 0.9rem; }
+        .card-link:hover { text-decoration: underline; }
+
+        /* Feature Split */
+        .feature-split { background: #fff; }
+        .split-wrap { display: flex; gap: 40px; flex-wrap: wrap; }
+        .split-media { flex: 1 1 300px; background: linear-gradient(140deg, #e9c46a, #f4a261); border-radius: 20px; min-height: 260px; display: flex; align-items: center; justify-content: center; font-size: 4rem; }
+        .split-content { flex: 2 1 400px; }
+        .split-content h3 { font-size: 1.6rem; color: #0f4c5c; margin-bottom: 16px; }
+        .split-content p { margin-bottom: 16px; }
+        .check-list li { padding: 6px 0; display: flex; gap: 10px; align-items: baseline; }
+        .check-list li::before { content: "✓"; color: #2a9d8f; font-weight: 700; }
+
+        /* Itinerary Cards */
+        .itinerary-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; }
+        .itinerary-card { background: #fff; border-radius: 16px; padding: 22px; border-top: 5px solid #2a9d8f; box-shadow: 0 2px 10px rgba(0,0,0,0.04); }
+        .itinerary-card.tone-alt { border-top-color: #e76f51; }
+        .itinerary-card h3 { font-size: 1.15rem; margin-bottom: 14px; color: #1f3a3a; }
+        .itinerary-card ul li { padding: 4px 0; font-size: 0.9rem; border-bottom: 1px dotted #e0e8e8; }
+        .itinerary-card ul li:last-child { border-bottom: none; }
+        .badge { background: #eef4f4; padding: 3px 10px; border-radius: 20px; font-size: 0.75rem; margin-left: 8px; font-weight: normal; }
+
+        /* Food Grid */
+        .food-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+        .food-card { background: #fff; border-radius: 14px; overflow: hidden; text-align: center; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+        .food-icon { font-size: 3rem; padding: 20px 0 5px; }
+        .food-card h4 { font-size: 1.1rem; color: #1f3a3a; }
+        .food-card p { font-size: 0.85rem; color: #5f7373; padding: 0 14px 16px; }
+
+        /* Tips Box */
+        .tips-box { background: #fff8ec; border-radius: 16px; padding: 28px; border-left: 6px solid #f4a261; }
+        .tips-box h3 { color: #9c4a1a; margin-bottom: 16px; }
+        .tips-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+        .tips-list li { background: rgba(255,255,255,0.8); padding: 12px 16px; border-radius: 10px; font-size: 0.9rem; }
+        .tips-list li strong { color: #e76f51; }
+
+        /* FAQ Section */
+        .faq-section { background: #fff; }
+        .faq-list { max-width: 900px; margin: 0 auto; }
+        .faq-item { border-bottom: 1px solid #e8efef; padding: 18px 0; }
+        .faq-question { font-size: 1.1rem; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+        .faq-question::after { content: "+"; font-size: 1.6rem; color: #2a9d8f; }
+        .faq-answer { padding-top: 10px; color: #4f6262; }
+
+        /* Footer */
+        .site-footer { background: #0f4c5c; color: #cfe0e0; padding: 40px 0 0; margin-top: 20px; }
+        .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px; padding-bottom: 30px; }
+        .footer-col h4 { color: #fff; font-size: 1.1rem; margin-bottom: 16px; }
+        .footer-col ul li { padding: 5px 0; font-size: 0.9rem; }
+        .footer-col ul li:hover { color: #f4a261; }
+        .footer-bottom { background: rgba(0,0,0,0.2); text-align: center; padding: 18px 0; font-size: 0.85rem; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .logo-text h1 { font-size: 1.4rem; }
+            .hero-text h2 { font-size: 2rem; }
+            .main-nav ul { flex-wrap: nowrap; overflow-x: auto; }
+            .main-nav li a { padding: 12px 14px; font-size: 0.9rem; }
+            .section { padding: 36px 0; }
+            .header-top { flex-direction: column; gap: 10px; }
+        }
+        @media (max-width: 480px) {
+            .hero-text h2 { font-size: 1.6rem; }
+            .hero-stats { gap: 12px; }
+            .stat-item { padding: 8px 12px; }
+            .stat-item strong { font-size: 1.3rem; }
+            .guide-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+    </style>
+    <script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container">
+        <div class="header-top">
+            <div class="logo-area">
+                <div class="logo-icon">🌺</div>
+                <div class="logo-text">
+                    <h1>花都旅游</h1>
+                    <p>广州花都 · 全域深度游</p>
+                </div>
+            </div>
+            <div class="header-contact">☎ 旅游咨询热线：020-1234 5678</div>
+        </div>
+    </div>
+    <nav class="main-nav">
+        <div class="container">
+            <ul>
+                <li class="active"><a href="#">首页</a></li>
+                <li><a href="#">热门景点</a></li>
+                <li><a href="#">游玩路线</a></li>
+                <li><a href="#">美食探店</a></li>
+                <li><a href="#">住宿推荐</a></li>
+                <li><a href="#">交通指南</a></li>
+                <li><a href="#">节庆活动</a></li>
+                <li><a href="#">游记分享</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="tagline">✦ 广州北部生态文旅新城</span>
+                <h2>走进花都，发现城市之外的山水与人文之美</h2>
+                <p>花都区位于广州市北部，这里既有大型主题乐园的欢乐动感，也有古村落的历史沉淀和王子山森林公园的自然静谧。无论亲子出游、情侣度假还是文化探索，花都都能提供丰富多元的旅行体验。</p>
+                <div class="hero-stats">
+                    <div class="stat-item"><strong>4A+</strong>多家A级景区</div>
+                    <div class="stat-item"><strong>30+</strong>特色打卡点</div>
+                    <div class="stat-item"><strong>1h</strong>直达广州市区</div>
+                </div>
+            </div>
+            <div class="hero-feature">
+                <h3>快速了解花都</h3>
+                <ul>
+                    <li>广州融创文旅城 —— 华南大型综合乐园</li>
+                    <li>塱头古村 —— 明清古建筑群聚落</li>
+                    <li>芙蓉嶂&王子山 —— 徒步与亲水胜地</li>
+                    <li>圆玄道观 —— 岭南道教文化地标</li>
+                    <li>花都湖湿地 —— 城市绿肺免费开放</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="quick-guide">
+    <div class="container">
+        <div class="guide-grid">
+            <div class="guide-card">
+                <div class="guide-icon">🚗</div>
+                <div class="guide-info"><strong>自驾出行</strong><span>机场高速/广清高速便捷</span></div>
+            </div>
+            <div class="guide-card">
+                <div class="guide-icon">🚇</div>
+                <div class="guide-info"><strong>地铁9号线</strong><span>直达花都广场站</span></div>
+            </div>
+            <div class="guide-card">
+                <div class="guide-icon">🎫</div>
+                <div class="guide-info"><strong>门票预约</strong><span>多数景区可线上购票</span></div>
+            </div>
+            <div class="guide-card">
+                <div class="guide-icon">🍊</div>
+                <div class="guide-info"><strong>时令水果</strong><span>荔枝/龙眼/杨桃采摘</span></div>
+            </div>
+            <div class="guide-card">
+                <div class="guide-icon">🏞️</div>
+                <div class="guide-info"><strong>免费公园</strong><span>花都湖/马鞍山公园</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<main>
+    <!-- 热门景点推荐 -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>花都必游 <span>景点推荐</span></h2>
+                <p>从主题乐园到古村田野，精选最值得花时间的去处</p>
+            </div>
+            <div class="attractions-grid">
+                <article class="attraction-card">
+                    <div class="card-img tone1">🎢</div>
+                    <div class="card-body">
+                        <span class="card-tag">主题乐园 · 亲子</span>
+                        <h3>广州融创文旅城</h3>
+                        <p>拥有雪世界、水世界、体育世界和大型商业综合体，四季皆可游玩，是华南地区规模领先的一站式度假目的地。</p>
+                        <a href="#" class="card-link">查看游玩攻略 →</a>
+                    </div>
+                </article>
+                <article class="attraction-card">
+                    <div class="card-img tone2">🏘️</div>
+                    <div class="card-body">
+                        <span class="card-tag">古村 · 人文</span>
+                        <h3>塱头古村</h3>
+                        <p>保存完好的明清古建筑群，镬耳墙、青砖巷、池塘老树，被誉为“广州最美古村落”之一，适合慢游拍照。</p>
+                        <a href="#" class="card-link">了解古村故事 →</a>
+                    </div>
+                </article>
+                <article class="attraction-card">
+                    <div class="card-img tone3">⛰️</div>
+                    <div class="card-body">
+                        <span class="card-tag">自然 · 徒步</span>
+                        <h3>芙蓉嶂 & 王子山</h3>
+                        <p>山林溪涧、水库风光，有登山步道与亲水平台。王子山森林公园负离子含量高，是夏秋避暑好去处。</p>
+                        <a href="#" class="card-link">徒步路线推荐 →</a>
+                    </div>
+                </article>
+                <article class="attraction-card">
+                    <div class="card-img tone4">⛩️</div>
+                    <div class="card-body">
+                        <span class="card-tag">宗教 · 园林</span>
+                        <h3>圆玄道观</h3>
+                        <p>广东道教活动重要场所，建筑气势恢宏，园林环境清幽，可了解道教文化并欣赏传统建筑艺术。</p>
+                        <a href="#" class="card-link">参观注意事项 →</a>
+                    </div>
+                </article>
+                <article class="attraction-card">
+                    <div class="card-img tone5">🌿</div>
+                    <div class="card-body">
+                        <span class="card-tag">城市公园 · 免费</span>
+                        <h3>花都湖国家湿地公园</h3>
+                        <p>依托新街河建成的大型城市湿地，有绿道、湖泊、花海和观鸟区，是本地人休闲散步的首选地。</p>
+                        <a href="#" class="card-link">公园导览图 →</a>
+                    </div>
+                </article>
+                <article class="attraction-card">
+                    <div class="card-img tone1">✈️</div>
+                    <div class="card-body">
+                        <span class="card-tag">科普 · 航空</span>
+                        <h3>广州空港文旅小镇</h3>
+                        <p>临近白云机场，融合航空主题与艺术创意，有旧仓库改造的展览空间与特色咖啡馆。</p>
+                        <a href="#" class="card-link">文艺打卡推荐 →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 游玩路线建议 -->
+    <section class="feature-split section">
+        <div class="container">
+            <div class="section-title">
+                <h2>经典 <span>游玩路线</span></h2>
+                <p>按时间和兴趣组合，省心出行</p>
+            </div>
+            <div class="split-wrap">
+                <div class="split-media">🗺️</div>
+                <div class="split-content">
+                    <h3>花都一日游经典组合</h3>
+                    <p>上午先到塱头古村感受岭南村落韵味，中午在附近农庄品尝地道烧鹅与野菜，下午前往融创文旅城畅玩雪世界或水世界，傍晚到花都湖公园看日落，晚上在来又来广场品尝当地小吃。</p>
+                    <ul class="check-list">
+                        <li>适合初次到访花都的游客</li>
+                        <li>交通：建议自驾或包车</li>
+                        <li>时间：约10小时</li>
+                        <li>预算参考：人均300-600元</li>
+                    </ul>
+                    <h3 style="margin-top: 24px;">两日深度文化自然之旅</h3>
+                    <p>第一天游览圆玄道观、广州民俗博物馆和花都湖；第二天前往王子山国家森林公园徒步，下午到红山村看油菜花田（季节性），体验乡村农家乐。</p>
+                </div>
+            </div>
+            <div style="margin-top: 36px;">
+                <div class="itinerary-grid">
+                    <div class="itinerary-card">
+                        <h3>亲子家庭游 <span class="badge">推荐</span></h3>
+                        <ul>
+                            <li>09:30 融创雪世界/水世界</li>
+                            <li>13:00 融创茂午餐</li>
+                            <li>15:00 花都湖儿童乐园</li>
+                            <li>17:30 马鞍山公园野餐</li>
+                        </ul>
+                    </div>
+                    <div class="itinerary-card tone-alt">
+                        <h3>古村人文摄影游</h3>
+                        <ul>
+                            <li>08:00 塱头古村晨拍</li>
+                            <li>11:00 三华村资政大夫祠</li>
+                            <li>14:00 花山小镇文创园</li>
+                            <li>16:30 洛场村碉楼群</li>
+                        </ul>
+                    </div>
+                    <div class="itinerary-card">
+                        <h3>户外自然徒步游</h3>
+                        <ul>
+                            <li>09:00 王子山登山</li>
+                            <li>12:00 山脚农庄午餐</li>
+                            <li>14:00 芙蓉峡漂流 (夏季)</li>
+                            <li>17:00 红山村日落</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 美食推荐 -->
+    <section class="section" style="background: #f0f7f7;">
+        <div class="container">
+            <div class="section-title">
+                <h2>寻味 <span>花都美食</span></h2>
+                <p>本地食材与粤式烹饪的融合</p>
+            </div>
+            <div class="food-grid">
+                <div class="food-card">
+                    <div class="food-icon">🍗</div>
+                    <h4>花都烧鹅</h4>
+                    <p>皮脆肉嫩，汁水丰盈，配酸梅酱一绝</p>
+                </div>
+                <div class="food-card">
+                    <div class="food-icon">🥬</div>
+                    <h4>炭步芋头</h4>
+                    <p>粉糯香浓，可蒸可焖，当地名产</p>
+                </div>
+                <div class="food-card">
+                    <div class="food-icon">🐟</div>
+                    <h4>水库鱼</h4>
+                    <p>芙蓉嶂水库鱼头大味鲜，一鱼多吃</p>
+                </div>
+                <div class="food-card">
+                    <div class="food-icon">🍊</div>
+                    <h4>杨桃/荔枝</h4>
+                    <p>夏季果园新鲜采摘，清甜多汁</p>
+                </div>
+                <div class="food-card">
+                    <div class="food-icon">🍜</div>
+                    <h4>梯面豆腐</h4>
+                    <p>山水豆腐花嫩滑，豆香浓郁</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 住宿与交通 -->
+    <section class="section">
+        <div class="container">
+            <div class="split-wrap">
+                <div class="split-content">
+                    <h3>住宿选择建议</h3>
+                    <p>花都住宿主要分布在三个区域：融创文旅城周边以主题酒店和度假公寓为主，适合亲子家庭；花都广场/区政府附近商务酒店较多，交通与餐饮便利；梯面镇及王子山脚下则有特色民宿和农家客栈，适合喜欢安静的游客。</p>
+                    <p>节假日期间融创周边酒店较为抢手，建议提前两周预订。若计划前往古村落，也可选择塱头村内的精品民宿，体验原汁原味的乡村夜晚。</p>
+                </div>
+                <div class="split-media" style="background: linear-gradient(140deg, #a8c99b, #6f9c7a);">🏨</div>
+            </div>
+            <div style="margin-top: 36px; background: #fff; border-radius: 16px; padding: 28px;">
+                <h3 style="color: #0f4c5c; margin-bottom: 16px;">🚌 交通指南</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px;">
+                    <div>
+                        <strong style="color: #e76f51;">✈️ 白云机场</strong>
+                        <p style="font-size: 0.9rem; margin-top: 6px;">机场北出口打车至花都约20分钟，或乘坐地铁3号线北延段转9号线</p>
+                    </div>
+                    <div>
+                        <strong style="color: #e76f51;">🚄 广州北站</strong>
+                        <p style="font-size: 0.9rem; margin-top: 6px;">高铁/普速列车均有停靠，出站后可乘公交或打车前往各景区</p>
+                    </div>
+                    <div>
+                        <strong style="color: #e76f51;">🚇 地铁9号线</strong>
+                        <p style="font-size: 0.9rem; margin-top: 6px;">连接花都城区与广州中心城区，途经花都广场、马鞍山公园等站</p>
+                    </div>
+                    <div>
+                        <strong style="color: #e76f51;">🚗 自驾</strong>
+                        <p style="font-size: 0.9rem; margin-top: 6px;">机场高速、广清高速、肇花高速均可到达，区内景点停车基本免费</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 旅行贴士 -->
+    <section class="section" style="background: #eef4f4;">
+        <div class="container">
+            <div class="section-title">
+                <h2>实用 <span>旅行贴士</span></h2>
+                <p>让您的花都之旅更顺畅</p>
+            </div>
+            <div class="tips-box">
+                <h3>📌 行前必读</h3>
+                <ul class="tips-list">
+                    <li><strong>最佳季节：</strong>春秋两季（3-5月、9-11月）气候宜人</li>
+                    <li><strong>夏季防晒：</strong>户外景点蚊虫较多，备好防蚊液</li>
+                    <li><strong>融创购票：</strong>雪世界建议自备手套，现场购买较贵</li>
+                    <li><strong>古村礼仪：</strong>部分老宅仍有居民居住，参观时勿喧哗</li>
+                    <li><strong>采摘提示：</strong>果园采摘前先咨询价格与品种</li>
+                    <li><strong>语言沟通：</strong>大部分本地人可讲普通话，粤语亦通用</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 常见问题 FAQ -->
+    <section class="faq-section section">
+        <div class="container">
+            <div class="section-title">
+                <h2>花都旅游 <span>常见问题</span></h2>
+                <p>你想知道的都在这里</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">花都区距离广州市中心多远？怎么去最方便？</div>
+                    <div class="faq-answer">花都区政府距广州市中心约30-40公里。最便捷的方式是乘坐地铁9号线（可在高增站换乘3号线），自驾走机场高速约40分钟可达。从白云机场出发则非常近，打车仅需20分钟。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">花都融创文旅城值得玩一整天吗？</div>
+                    <div class="faq-answer">值得。融创文旅城包含雪世界、水世界、体育世界、融创茂购物中心及多场秀演。如果购买通票，建议安排一整天时间，尤其是雪世界需要预留至少3小时体验滑雪或娱雪项目。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">花都有哪些免费又好玩的景点？</div>
+                    <div class="faq-answer">花都湖国家湿地公园、马鞍山公园、花都广场、洪秀全故居（部分区域免费）等都是不错的选择。此外，塱头古村进入村子不收费，只有部分祠堂或展览馆可能会收取小额门票。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">哪个季节去花都旅游最好？</div>
+                    <div class="faq-answer">春秋两季最舒适，气温在20-28℃之间。春季可看油菜花和禾雀花，秋季适合登山徒步。夏季虽然炎热，但融创水世界和芙蓉峡漂流正好派上用场。冬季则可去融创雪世界体验滑雪。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">花都本地有什么特色伴手礼？</div>
+                    <div class="faq-answer">炭步芋头、梯面豆腐、花都枇杷（春季）、蜂蜜、传统手工花生糖等都是不错的伴手礼。融创茂和各大景区商店也有文创纪念品出售。</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>关于花都旅游</h4>
+                <p style="font-size: 0.9rem;">花都旅游网致力于提供真实、有用的广州花都区旅行信息，帮助游客规划行程，发现花都之美。</p>
+            </div>
+            <div class="footer-col">
+                <h4>热门目的地</h4>
+                <ul>
+                    <li>融创文旅城</li>
+                    <li>塱头古村</li>
+                    <li>王子山森林公园</li>
+                    <li>圆玄道观</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>旅行工具</h4>
+                <ul>
+                    <li>天气查询</li>
+                    <li>交通路线</li>
+                    <li>酒店预订</li>
+                    <li>景区预约</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>联系合作</h4>
+                <ul>
+                    <li>文旅合作</li>
+                    <li>投稿/游记</li>
+                    <li>商务洽谈</li>
+                    <li>友情链接</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2024 花都旅游网 | 本网站仅提供旅游信息参考，不构成任何商业承诺
+        </div>
+    </div>
+</footer>
+
+<script>
+    // FAQ 折叠交互
+    document.querySelectorAll('.faq-question').forEach(function(q) {
+        q.addEventListener('click', function() {
+            var answer = this.nextElementSibling;
+            var isHidden = answer.style.display === 'none' || getComputedStyle(answer).display === 'none';
+            // 先隐藏所有
+            document.querySelectorAll('.faq-answer').forEach(function(a) {
+                a.style.display = 'none';
+            });
+            document.querySelectorAll('.faq-question').forEach(function(item) {
+                item.style.color = '#2d3a3a';
+            });
+            if (isHidden) {
+                answer.style.display = 'block';
+                this.style.color = '#e76f51';
+            }
+        });
+    });
+    // 初始隐藏FAQ答案
+    document.querySelectorAll('.faq-answer').forEach(function(a) {
+        a.style.display = 'none';
+    });
+</script>
+
+</body>
+  </html>
